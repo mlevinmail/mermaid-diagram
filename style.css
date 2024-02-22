@@ -1,0 +1,32 @@
+#container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  #left-panel, #right-panel {
+    height: 100%;
+    overflow: auto;
+    flex: 1;
+  }
+  
+  .CodeMirror {
+    height: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  #mermaid-output {
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+  
+  .gutter.gutter-horizontal {
+    cursor: col-resize;
+  }
+  
